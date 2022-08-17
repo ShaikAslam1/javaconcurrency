@@ -13,6 +13,7 @@ public class TestThreadFactory {
 
         for (int i=0; i<6; i++) {
             executorService.submit(new LoggingProcessor());
+            // some code
         }
     }
 }
